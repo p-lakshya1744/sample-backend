@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "status": "success",
-        "message": "Backend is running on Render 🚀"
+        "message": "Backend is running on Render "
     })
 
 @app.route("/health")
